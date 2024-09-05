@@ -1,0 +1,23 @@
+/* Universal selector */
+*{
+    margin: 0; 
+    padding: 0;
+}
+/* Element Selector */
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: mediumpurple;
+    color: aliceblue;  
+}
+
+/* id selector */
+#header{
+    text-align: center;
+    background-color: darkmagenta;
+    color: aliceblue;
+    padding: 20px; 
+}
+img{
+    border-radius: 50%;
+}
