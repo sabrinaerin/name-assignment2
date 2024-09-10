@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue; /* Background color for the page */
+}
+/* Styling for lists */
+ul, ol {
+    padding: 10px; /* Padding for lists */
+}
+/* Styling for table */
+table, th, td {
+    margin: 20px;
+    text-align: center;
+    border:1px solid black;
+}
+img{
+    border-radius: 50%; /* round image */
+    border: 10px solid black; /* Place border on image */
+    width: 300px; /* change width of image */
+}
+p{
+    color:rgb(171,84,171);  /* font color for all paragraphs */
+}
+
+tr:nth-child(even) {
+    background-color : #98ce40 ;  /* alernating row colors for rable */ 
+    }
+
+h2{ color: green;} /* element selector */ 
+
+.emphasize{font-style: italic; /* class selector */ 
+background-color: yellow;}
+
+#header{ font-weight: bold;}  /* id selector */
+
+h1{ font-size: 24px;}
+
+
+
+

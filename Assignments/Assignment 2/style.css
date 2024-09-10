@@ -1,0 +1,39 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Font family for the page */
+    line-height: 1.6; /* Line height for better readability */
+    background-color: #f9f9f9; /* Background color for the page */
+    color: #333; /* Text color */
+    margin: 20px; /* Margin around the body */
+    padding: 20px; /* Padding inside the body */
+}
+
+/* Styling for the image */
+.recipe-image {
+    height: 250px; /* Set the image height */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Styling for headings */
+h1 {
+    text-align: center; /* Center-align the main heading */
+    color: #c0392b; /* Color for the main heading */
+}
+
+h2 {
+    color: #2980b9; /* Color for sub-headings */
+    padding-bottom: 5px; /* Padding below sub-headings */
+    border-bottom: 2px solid #2980b9; /* Line below sub-headings */
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 1.1em; /* Font size for paragraphs */
+}
+
+/* Styling for lists */
+ul, ol {
+    margin: 15px; /* Margin for lists */
+    padding-left: 20px; /* Padding left for lists */
+}

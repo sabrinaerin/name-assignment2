@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+    <style>
+        /* Styling for the table */
+        table {
+            width: 100%; 
+        }
+        
+        th, td {
+            border: 1px solid #ddd; /* Border color for th and td */
+            padding: 8px; 
+            text-align: center; /*center text */
+        }
+        
+        /* Hover styling*/
+        td:hover {
+            background-color: #f9f9f9; /* Background color when hovering over cells */
+        }
+        
+        /* Styling for links */
+        a {
+            color: #9435a7; /* Link color */
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        caption {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Class Schedule</h1>
+
+    <table>
+        <caption>Class Schedule for Fall 2024</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Room Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Monday Schedule -->
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td>9:00 - 10:00</td>
+                <td>Introduction to Python</td>
+                <td>Dr. Smith</td>
+                <td>Room 101</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Web Development</td>
+                <td>Prof. Johnson</td>
+                <td>Room 102</td>
+            </tr>
+
+            <!-- Tuesday Schedule -->
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">9:00-11:00</td>
+                <td>Dr.Lee</td>
+                <td>Room 201</td>
+            </tr>
+
+            <!-- Wednesday Schedule -->
+            <tr>
+                <td>Wednesday</td>
+                <td>9:00 - 10:00</td>
+                <td>Algorithms</td>
+                <td>Dr. Brown</td>
+                <td>Room 103</td>
+            </tr>
+
+            <!-- Thursday Schedule -->
+            <tr>
+                <td>Thursday</td>
+                <td>10:00 - 11:00</td>
+                <td>Software Engineering</td>
+                <td>Prof. White</td>
+                <td>Room 104</td>
+            </tr>
+
+            <!-- Friday Schedule -->
+            <tr>
+                <td rowspan="2">Friday</td>
+                <td>9:00 - 10:00</td>
+                <td>Databases</td>
+                <td>Dr. Taylor</td>
+                <td>Room 202</td>
+            </tr>
+            <tr>
+                <td colspan="5">Office Hours</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Link to the course information -->
+    <p>Information about the courses can be found <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a>.</p>
+
+</body>
+</html>
